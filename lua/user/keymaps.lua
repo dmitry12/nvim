@@ -54,4 +54,5 @@ keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 keymap("v", "p", '"_dP', opts)
 
 --- Misc
-keymap("n", "f", ':Format', opts)
+keymap("n", "fm", ':Format<CR>', opts)
+keymap("n", "<C-s>", ':w<CR>', opts)
